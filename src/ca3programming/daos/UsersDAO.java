@@ -23,7 +23,7 @@ public class UsersDAO {
 
     // Created a UsersDAO empty constructor 
     public UsersDAO() {
-        // Empty Constructor for CourseDAO
+        // Empty Constructor for UserDAO
     }
 
     // Getting all the users constraints from the college database
