@@ -18,6 +18,8 @@ public class Lecturer {
     private String role;
     private String course_name;
     private String department_name;
+    private int no_of_students;
+    private String types_of_classes;
 
     // Created a Lecturer empty constructor
     public Lecturer() {
@@ -25,13 +27,15 @@ public class Lecturer {
     }
 
     // Created a Lecturer default constructor
-    public Lecturer(String lecturer_id, String lecturer_first_name, String lecturer_last_name, String role, String course_name, String department_name) {
+    public Lecturer(String lecturer_id, String lecturer_first_name, String lecturer_last_name, String role, String course_name, String department_name, int no_of_students, String types_of_classes) {
         this.lecturer_id = lecturer_id;
         this.lecturer_first_name = lecturer_first_name;
         this.lecturer_last_name = lecturer_last_name;
         this.role = role;
         this.course_name = course_name;
         this.department_name = department_name;
+        this.no_of_students = no_of_students;
+        this.types_of_classes = types_of_classes;
     }
 
     // Generated Getters and Setters for the Lecturer attributes 
@@ -82,5 +86,23 @@ public class Lecturer {
     public void setDepartment_name(String department_name) {
         this.department_name = department_name;
     }
+
+    public int getNo_of_students() {
+        return no_of_students;
+    }
+
+    public void setNo_of_students(int no_of_students) {
+        this.no_of_students = no_of_students;
+    }
+
+    public String getTypes_of_classes() {
+        return types_of_classes;
+    }
+
+    public void setTypes_of_classes(String types_of_classes) {
+        this.types_of_classes = types_of_classes;
+    }
+    
+    
 
 } // End of class method for Lecturer 
