@@ -15,15 +15,15 @@ import java.util.List;
  */
 public class StudentReportGenerator implements ReportGenerator {
     // Beginning of StudentReportGenerator class
-    
+
     // Attributes for StudentDAO
     private final StudentDAO studentDAO;
 
-    // CourseReportGenerator method
+    // StudentReportGenerator method
     public StudentReportGenerator(StudentDAO studentDAO) {
         this.studentDAO = studentDAO;
     }
-    
+
     @Override
     public List<String> generateReport() {
         List<Student> students = studentDAO.getAllStudents();
@@ -41,8 +41,5 @@ public class StudentReportGenerator implements ReportGenerator {
 
         return reportLines; // return ReportLines
     }
-    
-    
-    
-    
+
 }// End of StudentReportGenerator class
