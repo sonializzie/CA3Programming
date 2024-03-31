@@ -31,7 +31,7 @@ public class Users {
         this.email = email;
         this.role = role;
     }
-    
+
     // Generated Getters and Setters for the Course attributes 
     public int getUser_id() {
         return user_id;
@@ -72,6 +72,9 @@ public class Users {
     public void setRole(String role) {
         this.role = role;
     }
-    
+
+    public void add(Users users) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 } // End of class method for Users
