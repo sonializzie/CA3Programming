@@ -23,7 +23,7 @@ public class CourseReportGenerator implements ReportGenerator {
     public CourseReportGenerator(CourseDAO courseDAO) {
         this.courseDAO = courseDAO;
     }
-
+    
     @Override
     public List<String> generateReport() {
         List<Course> courses = courseDAO.getAllCourses();
