@@ -15,6 +15,15 @@ import java.util.Scanner;
 /**
  *
  * @author sonia_ndonga
+ * 
+ * Module: Object Orientated Programming
+ * Programming: CA3 
+ * Date: 31st March 2024 
+ * GitHub Repository Link : https://github.com/sonializzie/CA3Programming
+ * 
+ * 
+ * 
+ * 
  */
 public class CA3Programming {
     // Beginning of class method
